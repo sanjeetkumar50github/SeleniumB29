@@ -1,0 +1,19 @@
+
+<suite name="Suite" parallel="tests">
+  <test name="TestGC">
+   <parameter name="remoteURL" value="http://localhost:4444"/> 
+   <parameter name="browser" value="chrome"/> 
+   <parameter name="strX" value="0"/> 
+    <classes>
+      <class name="Class33.Demo1"/>
+    </classes>
+  </test>
+  <test name="TestFF">
+   <parameter name="remoteURL" value="http://localhost:4444"/> 
+   <parameter name="browser" value="firefox"/> 
+   <parameter name="strX" value="600"/> 
+    <classes>
+      <class name="Class33.Demo1"/>
+    </classes>
+  </test>
+</suite> 

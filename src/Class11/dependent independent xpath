@@ -1,0 +1,22 @@
+
+html to B:
+/html/body/div[1]/input[2]
+//input[@value='B']
+
+B to Html:
+/html/body/div[1]/input[2]/../../..
+//input[@value='B']/../../..
+
+
+html to c:
+/html/body/div[2]/input[1]
+//input[@value='C']
+
+/html/body/div[2]/input[1]/../../..
+//input[@value='C']/../../..
+
+
+**********************
+
+
+//div[.='APPLE iPhone SE (Red, 64 GB)']/../../div[2]/div[1]/div[1]/div

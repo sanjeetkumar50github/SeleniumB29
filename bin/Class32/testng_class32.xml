@@ -1,0 +1,10 @@
+<suite name="Suite">
+  <test name="Test">
+    <parameter name="url" value="https://demo.actitime.com/login.do"/>
+    <parameter name="un" value="trainee"/>
+    <parameter name="pw" value="trainee"/>
+    <classes>
+      <class name="Class32.Test1"/>
+    </classes>
+  </test> 
+</suite>

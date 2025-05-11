@@ -1,0 +1,1 @@
+java -Dwebdriver.chrome.driver=chromedriver.exe -Dwebdriver.gecko.driver=geckodriver.exe -jar selenium-server-4.1.1.jar standalone

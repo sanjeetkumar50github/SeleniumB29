@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-20T02:40:53 IST" name="Suite" finished-at="2022-08-20T02:41:30 IST" duration-ms="37365">
+    <groups>
+    </groups>
+    <test started-at="2022-08-20T02:40:53 IST" name="TestGC" finished-at="2022-08-20T02:41:29 IST" duration-ms="35978">
+      <class name="Class33.Demo1">
+        <test-method signature="testA(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Class33.Demo1@5dd6264]" started-at="2022-08-20T02:40:53 IST" name="testA" finished-at="2022-08-20T02:41:29 IST" duration-ms="35941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://oauth-mrsanjeet767-e584c:47e102aa-c052-43b8-bc96-c34410e628dd@ondemand.eu-central-1.saucelabs.com:443/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- Class33.Demo1 -->
+    </test> <!-- TestGC -->
+    <test started-at="2022-08-20T02:40:53 IST" name="TestFF" finished-at="2022-08-20T02:41:30 IST" duration-ms="37365">
+      <class name="Class33.Demo1">
+        <test-method signature="testA(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Class33.Demo1@3e2e18f2]" started-at="2022-08-20T02:40:53 IST" name="testA" finished-at="2022-08-20T02:41:30 IST" duration-ms="37333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://oauth-mrsanjeet767-e584c:47e102aa-c052-43b8-bc96-c34410e628dd@ondemand.eu-central-1.saucelabs.com:443/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[600]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- Class33.Demo1 -->
+    </test> <!-- TestFF -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,22 @@
+./child::html/child::body/child::table
+
+xpath axes
+child parent descendant ancestor following-sibling preceding-sibling
+/     /..     //
+
+
+/axes::tag 
+
+
+/child::html-------->/html
+/parent::tag  ------>/..
+/descendant::td ----> //td
+/ancestor::---->//td[.='Java']/ancestor::table
+
+following-sibling
+preceding-sibling
+
+//td[.='SQL']/following-sibling::td
+
+//option[.='BreakFast']/following-sibling::option[1]
+//option[.='Dinner']/preceding-sibling::option[3]

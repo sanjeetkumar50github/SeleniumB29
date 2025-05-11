@@ -1,0 +1,82 @@
+	1. can we use attribute in xpath?
+           yes
+
+        2. syntax?
+           tag[@AN='AV']
+
+        3. can i use this in both A X & RX?
+           yes
+		/html/body/a[@id='a1']
+		//a[@id='a1']
+                  a[id='a1'] ---> a#a1  ---> #a1---tag can be any tag
+			//*[@id='a1']
+	Note: * means ----> any tag
+              . at the begining ----> root element
+       4. can we use more than one attribute in xpath?
+           yes
+		tag[@AN1='AV1' and @AN2='AV2']
+		tag[@AN1='AV1' or @AN2='AV2']
+
+	5. how to use not equals in xpath?
+             tag[not(@AN='AV')]
+
+        6. 
+		<input type="text">
+		<input type="text" id="a1">
+		<input type="text" id="a2">
+		//input------------------------3
+		//input[@id]   ----------------2          
+		//input[@id='a2']	-------1 
+        7. can we use text in xpath?  
+           yes----> tag[text()='value']
+ 
+        8. can we write xpath with both attribute and text?---yes
+		tag[@AN='AV' and text()='tv']
+		tag[@AN='AV' or text()='tv']
+
+	9. ***what is the diff b/w text and text()
+		<input type="text">------> //input[@type='text']
+                <a      >Akshara</a>	//a[text()='Akshara']
+
+                text---> value of the  'type'	attribute
+		text()--> function of the xpath to identify the element by its text
+      
+	 10.in xpath . with in [] represents text()
+		//nobr[text()='actiTIME 2020 Online']
+		.//nobr[.='actiTIME 2020 Online']
+
+	11.  how do u handle if value is dynamic ?
+              //tag[contains(arg1,arg2)]
+		arg1 can be @AN or text()
+                arg2 should be a value
+
+
+	      //nobr[contains(text(),'actiTIME')]
+  		//*[contains(.,'actiTIME')]
+		//input[contains(@title,'computer')]
+
+	12. By.partialLinkText("Inbox")-------- Inbox(3)
+		
+            xpath---//a[contains(text(),'Inbox')]
+                    //span[contains(text(),'Inbox')]
+
+	13. //tag(starts-with(arg1,arg2))]
+	   //nobr[starts-with(.,'actiTIME')]	
+
+       14. //tag[ends-with(arg1,arg2))] --- limitation browsers 
+		they support only xpath 1.0 
+		
+
+
+
+		
+	
+		
+		 
+
+
+
+
+
+
+
