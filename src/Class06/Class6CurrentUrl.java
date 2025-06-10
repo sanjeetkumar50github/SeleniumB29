@@ -7,7 +7,7 @@ public class Class6CurrentUrl {
 
 	static 
 	{	//set the path of driver executable
-		System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","./driver/geckodriver.exe");
 	}
 	
 	public static void main(String[] args) throws InterruptedException {
