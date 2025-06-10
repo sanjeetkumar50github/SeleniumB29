@@ -6,6 +6,7 @@ public class CountFrom1To20 {
 
 		System.out.println("Hello Khushi");
 		System.out.println("Hello Khushi Kumari");
+		System.out.println("Hello India");
 	}
 //        for (int i = 1; i <= 20; i++) {
 //            System.out.println(i);
